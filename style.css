@@ -4,13 +4,14 @@ body{
     background-size: cover;
 }
 .main_div{
-    height: 500px;
-    width: 400px;
-    background-color: rgb(147, 168, 158);
-    border-radius: 20px;
-    left: 30%;
+    height: 510px;
+    width: 420px;
+    background-color: rgb(152, 170, 162);
+    border-radius: 10px;
+    margin-left: 33%;
+    margin-right: 33%;
     margin-top: 50px;
-    position: relative;
+    position: static;
     box-shadow: 0 0 20px rgb(10, 10, 10);
 }
 
@@ -21,89 +22,118 @@ body{
     position: relative;
     left: 35%;
     right: 35%;
-    top: 5%;
+    top: 3%;
     box-shadow: 0 0 20px #eee;
 }
 
 #name h2{
-    font-size: 40px;
+    font-size: 2.2em;
     color: black;
     text-align: center;
-    margin-top: 40px;
+    margin-top: 25px;
     font-family: sans-serif;
     text-shadow: 2px 2px 5px rgb(216, 211, 211);
 }
 
 #about-1 p{
-    font-size: 20px;
+    font-size: 1.2em;
     position: relative;
-    margin-left: 100px;
+    text-align: center;
     margin-top: -20px;
     font-family: sans-serif;
 }
 
 #about-2{
     margin: 0px 15px 0px;
-    text-align: center;
 }
 
 #about-2 P{
-    text-align: justify;
+    text-align: center;
     font-family: sans-serif;
-    font-size: 20px;
-    border-top: 2px solid rgb(75, 71, 71);
+    font-size: 1em;
+    border-top: 2px solid rgb(129, 129, 129);
     padding-top: 10px;
 }
 
 #button{
     display: inline-block;
-    margin-left: 10%;
+    margin-left: 15%;
     margin-right: 10%;
-    margin-top: 15px;
 }
 
 
 .btn-grad {
-    background-image: linear-gradient(to right, #2e832e 0%, #215772  51%, #164564  100%)
+    background-image: linear-gradient(to right, #193019 0%, #1d0f22  51%, #200903  100%)
 }
 
 .btn-grad {
-   padding: 10px 35px;
+   padding: 3% 3%;
    text-align: center;
-   font-weight: 20px;
-   transition: 0.5s;
+   transition: 0.2s;
    background-size: 200% auto;
-   color: white;            
+   color: rgb(218, 211, 211);            
    box-shadow: 0 0 20px #eee;
    border-radius: 10px;
    display: block;
    border: none;
-   font-size: 16px;
+   font-size: 1.1em;
    font-family: sans-serif;
 }
 
 .btn-grad:hover {
    background-position: right center; /* change the direction of the change here */
-   color: #fff;
+   color: rgb(255, 255, 255);
    text-decoration: none;
 }
 
 #footer{
-    margin-top: 10%;
+    margin-top: 6%;
     text-align: center;
     letter-spacing: 10px;
     font-size: 1.5em;
+}
+#footer a{
+    text-decoration: none;
+    color: black;
 }
 #linkedin #facebook #github{
     border-radius: 50%;
 }
 #linkedin:hover{
     /* text-shadow: #eee; */
-    text-shadow: 0 0 11px rgb(240, 6, 6);
+    text-shadow: 0 0 11px rgb(255, 0, 0);
 }
 #facebook:hover{
-    text-shadow: 0 0 11px rgb(218, 2, 2);
+    text-shadow: 0 0 11px rgb(255, 0, 0);
 }
 #github:hover{
-    text-shadow: 0 0 11px rgb(226, 8, 8);
+    text-shadow: 0 0 11px rgb(255, 0, 0);
+}
+@media screen and (max-width: 640px) {
+    .main_div{
+        height: 520px;
+        width: 310px;
+        background-color: rgb(152, 170, 162);
+        border-radius: 10px;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 0px;
+        position: static;
+        box-shadow: 0 0 20px rgb(10, 10, 10);
+    }
+    #user-img{
+        border-radius: 50%;
+        height: 21%;
+        width: 30%;
+        position: relative;
+        left: 35%;
+        right: 35%;
+        top: 3%;
+        box-shadow: 0 0 20px #eee;
+    }
+    #button{
+        display: inline-block;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
 }
