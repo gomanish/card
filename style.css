@@ -20,6 +20,7 @@ body{
     width: 30%;
     position: relative;
     left: 35%;
+    right: 35%;
     top: 5%;
     box-shadow: 0 0 20px #eee;
 }
@@ -42,7 +43,7 @@ body{
 }
 
 #about-2{
-    margin: 0px 20px 0px;
+    margin: 0px 15px 0px;
     text-align: center;
 }
 
@@ -50,12 +51,15 @@ body{
     text-align: justify;
     font-family: sans-serif;
     font-size: 20px;
+    border-top: 2px solid rgb(75, 71, 71);
+    padding-top: 10px;
 }
 
 #button{
     display: inline-block;
-    margin-left: 40px;
-    margin-top: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 15px;
 }
 
 
@@ -74,6 +78,8 @@ body{
    border-radius: 10px;
    display: block;
    border: none;
+   font-size: 16px;
+   font-family: sans-serif;
 }
 
 .btn-grad:hover {
@@ -93,10 +99,10 @@ body{
 }
 #linkedin:hover{
     /* text-shadow: #eee; */
-    text-shadow: 0 0 11px rgb(252, 248, 248);
+    text-shadow: 0 0 11px rgb(240, 6, 6);
 }
 #facebook:hover{
-    text-shadow: 0 0 11px rgb(235, 37, 159);
+    text-shadow: 0 0 11px rgb(218, 2, 2);
 }
 #github:hover{
     text-shadow: 0 0 11px rgb(226, 8, 8);
