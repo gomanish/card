@@ -104,6 +104,13 @@ body{
 }
 
 @media screen and (max-width: 640px) {
+    body{
+        background-image: url(static/mouse.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+    }
     .main_div{
         height: 100%;
         width: 100%;
