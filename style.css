@@ -2,15 +2,15 @@ body{
     background-image: url(static/mouse.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+    height: 100%;
 }
-.main_div{
+.main_div{  
     height: 510px;
     width: 420px;
     background-color: rgb(152, 170, 162);
     border-radius: 10px;
-    margin-left: 33%;
-    margin-right: 33%;
-    margin-top: 50px;
+    margin: auto;
     position: static;
     box-shadow: 0 0 20px rgb(10, 10, 10);
 }
@@ -56,9 +56,9 @@ body{
 }
 
 #button{
-    display: inline-block;
-    margin-left: 15%;
-    margin-right: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -96,31 +96,23 @@ body{
     text-decoration: none;
     color: black;
 }
-#linkedin #facebook #github{
+#footer a i{
     border-radius: 50%;
 }
-#linkedin:hover{
-    /* text-shadow: #eee; */
+#footer a i:hover{
     text-shadow: 0 0 11px rgb(255, 0, 0);
 }
-#facebook:hover{
-    text-shadow: 0 0 11px rgb(255, 0, 0);
-}
-#github:hover{
-    text-shadow: 0 0 11px rgb(255, 0, 0);
-}
+
 @media screen and (max-width: 640px) {
     .main_div{
         height: 100%;
         width: 100%;
         background-color: rgb(152, 170, 162);
         border-radius: 10px;
-        margin-left: 0px;
-        margin-right: 0px;
-        margin-top: 0px;
-        position: static;
+        margin: auto;
         box-shadow: 0 0 20px rgb(10, 10, 10);
         position: relative;
+        padding: 20px;
     }
     #user-img{
         border-radius: 50%;
@@ -148,5 +140,5 @@ body{
         border: none;
         font-size: 1.1em;
         font-family: sans-serif;
-     }
+    }
 }
